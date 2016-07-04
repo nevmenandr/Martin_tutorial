@@ -1,0 +1,11 @@
+there are 697274 items in vocab_frame
+19	
+19275	
+0    11
+1     8
+dtype: int64Top terms per cluster:
+
+Cluster 0 words: s,  brienne,  jaime,  tyrion,  sansa,  cersei,  ned,  arya,  catelyn,  knight,  grace,  petyr,  lannister,  t,  joffrey,  city,  jorah,  renly,  d,  robb, 
+Cluster 0 titles: Catelyn, Tyrion, Arya, Sansa, Eddard, Brienne, Daenerys, Alayne, Davos, Cersei, Jaime,
+Cluster 1 words: jon,  sam,  reek,  s,  theon,  bran,  melisandre,  bear,  mormont,  ramsay,  asshai,  hodor,  wildling,  dragonstone,  wild,  patience,  iron,  t,  winterfell,  ships, 
+Cluster 1 titles: Theon, Samwell, Melisandre, Victarion, Jon, Bran, Dedication, Reek,
