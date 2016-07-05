@@ -1,0 +1,21 @@
+pov <- c('DAVOS', 'REEK', 'VICTARION', 'SANSA', 'BRIENNE', 'MELISANDRE', 'EDDARD', 'TYRION', 'SAMWELL', 'CERSEI', 'ALAYNE', 'JAIME', 'CATELYN', 'DAENERYS', 'THEON', 'ARYA', 'BRAN', 'JON')
+col <- c(517, 83, 42, 477, 284, 78, 239, 1200, 380, 386, 76, 534, 483, 1242, 198, 655, 609, 1318)
+cp <- array(col, dimnames=list(pov))
+plot(cp, type="h", xaxt="n")
+axis(1, at=seq(1:18), labels=pov)
+
+png(file="/home/boris/Work/Martin_tutorial/code/colors/plot_all_POV.png", width=1550 , height=500)
+plot(md, type="h", xaxt="n")
+axis(1, at=seq(1:18), labels=pov)
+dev.off()
+
+pov1 <- c("Davos", "Reek", "Victarion", "Sansa", "Brienne", "Melisandre", "Eddard", "Tyrion", "Samwell", "Cersei", "Alayne", "Jaime", "Catelyn", "Daenerys", "Theon", "Arya", "Bran", "Jon")
+col1 <- c(0.0165170441839, 0.0101059296238, 0.0216383307573, 0.0108569477637, 0.0114474585836, 0.0270083102493, 0.0088172360363, 0.0107664839355, 0.013764624914, 0.0108907259543, 0.00881670533643, 0.0126396515811, 0.00995650471027, 0.0146327670303, 0.0106583409593, 0.0115795986918, 0.0136749449859, 0.0124022546132)
+cp1 <- array(col1, dimnames=list(pov1))
+plot(cp1, type="h", xaxt="n")
+axis(1, at=seq(1:18), labels=pov1)
+
+png(file="/home/boris/Work/Martin_tutorial/code/colors/plot_rel_POV.png", width=1550 , height=500)
+plot(cp1, type="h", xaxt="n")
+axis(1, at=seq(1:18), labels=pov1)
+dev.off()
