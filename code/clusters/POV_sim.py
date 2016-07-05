@@ -60,7 +60,7 @@ def tokenize_only(text):
     return filtered_tokens
 
 def main():
-    fwr = codecs.open('lemmed_cluster_no_stopwords.txt', 'w', 'utf-8')
+    fwr = codecs.open('lemmed_cluster_no_stopwords_4_clusters.txt', 'w', 'utf-8')
     lst = os.listdir('POV_docs')
     titles = []
     contents = []
@@ -92,12 +92,12 @@ def main():
     #fwr.write('\t'.join(tfidf_matrix.shape))
     terms = tfidf_vectorizer.get_feature_names()
     dist = 1 - cosine_similarity(tfidf_matrix)
-    num_clusters = 2
+    num_clusters = 4
     km = KMeans(n_clusters=num_clusters)
     km.fit(tfidf_matrix)
     clusters = km.labels_.tolist()
     
-    joblib.dump(km, 'songs_cluster.pkl')
+    joblib.dump(km, 'songs_cluster_4.pkl')
         
     #km = joblib.load('songs_cluster.pkl')
     #clusters = km.labels_.tolist()    
@@ -123,10 +123,10 @@ def main():
                 pass
             #pass
         fwr.write("\nCluster %d titles:" % i)
-        for title in frame.ix[i]['title'].values.tolist():
-            title = unicode(title)
-            print (title)
-            fwr.write(u' ' + title + u',')
+        #for title in frame.ix[i]['title'].values.tolist():
+            #title = unicode(title)
+            #print (title)
+            #fwr.write(u' ' + title + u',')
             
     MDS()
     mds = MDS(n_components=2, dissimilarity="precomputed", random_state=1)
@@ -136,9 +136,11 @@ def main():
     #Visualizing document clusters
     
     #cluster_colors = {0: '#0000A0', 1: '#FF0000'} # #000000, #C0C0C0
-    cluster_colors = {0: '#000000', 1: '#C0C0C0'}
+    cluster_colors = {0: 'red', 1: 'blue', 2: 'green', 3: 'black'}
     cluster_names = {0: u'1', 
-                 1: u'2'}
+                 1: u'2',
+                 2: u'3',
+                 3: u'4'}
     
     df = pd.DataFrame(dict(x=xs, y=ys, label=clusters, title=titles)) 
     groups = df.groupby('label')
@@ -168,7 +170,7 @@ def main():
         ax.text(df.ix[i]['x'], df.ix[i]['y'], df.ix[i]['title'], size=25) 
     
     #plt.show()
-    pylab.savefig('forms_cluster.png')
+    pylab.savefig('forms_cluster_4.png')
     
     # dendro
     
@@ -187,7 +189,7 @@ def main():
     plt.tight_layout() #show plot with tight layout
     
     #uncomment below to save figure
-    plt.savefig('ward_clusters.png', dpi=200) #save figure as ward_clusters
+    plt.savefig('ward_clusters_4.png', dpi=200) #save figure as ward_clusters
 
     fwr.close()
     return 0

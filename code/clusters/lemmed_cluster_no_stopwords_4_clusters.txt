@@ -1,0 +1,17 @@
+there are 697216 items in vocab_frame
+18	
+18829	
+0    10
+2     4
+3     2
+1     2
+dtype: int64Top terms per cluster:
+
+Cluster 0 words: s,  melisandre,  sam,  tyrion,  t,  bran,  arya,  sansa,  jaime,  d,  jorah,  i,  ll,  he,  hodor,  wildling,  joffrey,  city,  you,  mance, 
+Cluster 0 titles:
+Cluster 1 words: cersei,  iron,  margaery,  meereen,  priest,  fleet,  merryweather,  tommen,  dusky,  osney,  osmund,  jaime,  loras,  ironborn,  ghis,  pycelle,  red,  kettleblack,  septa,  crow’s, 
+Cluster 1 titles:
+Cluster 2 words: brienne,  ned,  catelyn,  petyr,  renly,  lysa,  sansa,  lyn,  eyrie,  corbray,  waynwood,  lord,  jaime,  s,  arryn,  littlefinger,  edmure,  vale,  yohn,  riverrun, 
+Cluster 2 titles:
+Cluster 3 words: reek,  theon,  ramsay,  ramsay’s,  bolton,  pyke,  walder,  dreadfort,  balon,  lord,  rodrik,  m’lord,  jeyne,  roose,  luwin,  rowan,  ironborn,  moat,  ironmen,  big, 
+Cluster 3 titles:

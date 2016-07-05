@@ -1,11 +1,14 @@
-there are 697274 items in vocab_frame
-19	
-19275	
-0    11
-1     8
+there are 697216 items in vocab_frame
+18	
+18829	
+0    10
+2     5
+1     3
 dtype: int64Top terms per cluster:
 
-Cluster 0 words: s,  brienne,  jaime,  tyrion,  sansa,  cersei,  ned,  arya,  catelyn,  knight,  grace,  petyr,  lannister,  t,  joffrey,  city,  jorah,  renly,  d,  robb, 
-Cluster 0 titles: Catelyn, Tyrion, Arya, Sansa, Eddard, Brienne, Daenerys, Alayne, Davos, Cersei, Jaime,
-Cluster 1 words: jon,  sam,  reek,  s,  theon,  bran,  melisandre,  bear,  mormont,  ramsay,  asshai,  hodor,  wildling,  dragonstone,  wild,  patience,  iron,  t,  winterfell,  ships, 
-Cluster 1 titles: Theon, Samwell, Melisandre, Victarion, Jon, Bran, Dedication, Reek,
+Cluster 0 words: s,  melisandre,  sam,  bran,  t,  arya,  sansa,  jaime,  catelyn,  d,  i,  jorah,  ll,  hodor,  wildling,  he,  joffrey,  brienne,  city,  mance, 
+Cluster 0 titles: Davos, Bran, Catelyn, Sansa, Samwell, Melisandre, Jon, Jaime, Arya, Daenerys,
+Cluster 1 words: reek,  theon,  ramsay,  iron,  priest,  meereen,  fleet,  ironborn,  ramsay’s,  pyke,  dusky,  bolton,  ghis,  crew,  red,  balon,  crow’s,  captain’s,  walder,  dreadfort, 
+Cluster 1 titles: Theon, Victarion, Reek,
+Cluster 2 words: tyrion,  brienne,  ned,  cersei,  petyr,  jaime,  margaery,  sansa,  s,  pycelle,  lyn,  varys,  corbray,  waynwood,  lord,  loras,  littlefinger,  eyrie,  arryn,  renly, 
+Cluster 2 titles: Cersei, Eddard, Brienne, Tyrion, Alayne,
