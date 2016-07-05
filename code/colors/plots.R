@@ -19,3 +19,38 @@ png(file="/home/boris/Work/Martin_tutorial/code/colors/plot_rel_POV.png", width=
 plot(cp1, type="h", xaxt="n")
 axis(1, at=seq(1:18), labels=pov1)
 dev.off()
+
+# variety
+
+povvar <- c("Davos", "Reek", "Victarion", "Sansa", "Brienne", "Melisandre", "Eddard", "Tyrion", "Samwell", "Cersei", "Alayne", "Jaime", "Catelyn", "Daenerys", "Theon", "Arya", "Bran", "Jon")
+colvar <- c(25, 10, 9, 27, 18, 11, 20, 30, 17, 21, 13, 26, 22, 36, 14, 19, 18, 27)
+cp2 <- array(colvar, dimnames=list(povvar))
+plot(cp2, type="h", xaxt="n")
+axis(1, at=seq(1:18), labels=povvar)
+
+png(file="/home/boris/Work/Martin_tutorial/code/colors/plot_var_POV.png", width=1550 , height=500)
+plot(cp2, type="h", xaxt="n")
+axis(1, at=seq(1:18), labels=povvar)
+dev.off()
+
+# Tyrion color variation
+
+tyr <- c(3, 7, 6, 6, 9, 2, 8, 13, 6, 9, 6, 10, 9, 8, 8, 7, 4, 10, 8, 5, 6, 10, 9, 11, 8, 11, 12, 3, 16, 13, 7, 6, 18, 13, 8, 14, 10, 11, 13, 14, 12, 11, 11, 6)
+
+mt <- mean(tyr)
+mt
+mdt <- median(tyr)
+mdt
+
+mdt_p <- c(9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9)
+
+# tyr[29]
+
+plot(tyr, type='b')
+lines(mdt_p, type='l', col='blue')
+
+
+png(file="/home/boris/Work/Martin_tutorial/code/colors/plot_var_Tyrion.png", width=1550 , height=500)
+plot(tyr, type='b')
+lines(mdt_p, type='l', col='blue')
+dev.off()
