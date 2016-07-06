@@ -1,15 +1,13 @@
-Asshai
 Astapor
-Lannisport
 Meereen
 Qarth
 Yunkai
 Riverrun
 Winterfell
 Landing
-Dothrak
 Dorne
 Riverlands
 Stormlands
-North
 Vale
+Braavos
+Pentos
