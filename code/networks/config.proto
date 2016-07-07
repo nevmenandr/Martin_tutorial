@@ -1,0 +1,29 @@
+encoding "utf8"; 
+
+TTextMinerConfig {
+  Dictionary = "dic.gzt";
+//  PrintRules = "rules.txt";
+//  PrintTree = "tree.txt";
+//  PrettyOutput = "debug.html";
+
+  Language = "en";
+
+  Input = {
+    Encoding = "windows-1251";
+    Type = dpl;
+  }
+  Output = {
+//     File="out.txt";
+     Format = xml;
+     }
+ 
+  Articles = [
+     { Name = "Article" }    
+     ]
+
+  Facts = [
+     { Name = "Fact" }
+     ]
+}
+
+

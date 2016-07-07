@@ -1,0 +1,567 @@
+encoding "utf-8";
+
+names {
+key = {"eddard stark" | "ned stark" | "eddard" | "ned"};
+lemma = "eddard";
+}
+
+names {
+key = {"catelyn stark" | "catelyn tully" | "catelyn"};
+lemma = "catelyn";
+}
+
+names {
+key = {"robb stark" | "robb"};
+lemma = "robb";
+}
+
+names {
+key = {"sansa stark" | "sansa"};
+lemma = "sansa";
+}
+
+names {
+key = {"arya stark" | "arya"};
+lemma = "arya";
+}
+
+names {
+key = {"bran stark" | "bran"};
+lemma = "bran";
+}
+
+names {
+key = {"rickon stark" | "rickon"};
+lemma = "rickon";
+}
+
+names {
+key = {"jon snow" | "jon" | "snow"};
+lemma = "jon";
+}
+
+names {
+key = {"benjen stark" | "benjen" | "ben" | "ben stark"};
+lemma = "benjen";
+}
+
+names {
+key = {"lyanna stark" | "lyanna"};
+lemma = "lyanna";
+}
+
+names {
+key = {"roose bolton" | "roose"};
+lemma = "roose";
+}
+
+names {
+key = {"ramsay bolton" | "ramsey"};
+lemma = "ramsay";
+}
+
+names {
+key = {"daenerys targaryen" | "daenerys" | "dany" | "mother of dragon"};
+lemma = "daenerys";
+}
+
+names {
+key = {"viserys targaryen" | "viserys"};
+lemma = "viserys";
+}
+
+names {
+key = {"rhaegar targaryen" | "rhaegar"};
+lemma = "rhaegar";
+}
+
+names {
+key = {"aegon v targaryen" | "aegon v" | "aegon"};
+lemma = "aegon";
+}
+
+names {
+key = {"aerys ii targaryen" | "the mad king" | "aerys"};
+lemma = "aerys";
+}
+
+names {
+key = {"jon arryn"};
+lemma = "jon arryn";
+}
+
+names {
+key = {"lysa arryn" | "lysa"};
+lemma = "lysa";
+}
+
+names {
+key = {"robert arryn" | "sweetrobin"};
+lemma = "robert arryn";
+}
+
+names {
+key = {"tywin lannister" | "tywin"};
+lemma = "tywin";
+}
+
+names {
+key = {"cersei lannister" | "cersei"};
+lemma = "cersei";
+}
+
+names {
+key = {"jaime lannister" | "jaime"};
+lemma = "jaime";
+}
+
+names {
+key = {"tyrion lannister" | "the imp" | "the halfman" | "yollo" | "hugor hill" | "tyrion"};
+lemma = "tyrion";
+}
+
+names {
+key = {"joffrey baratheon" | "joffrey"};
+lemma = "joffrey";
+}
+
+names {
+key = {"myrcella baratheon" | "myrcella"};
+lemma = "myrcella";
+}
+
+names {
+key = {"tommen baratheon" | "tommen"};
+lemma = "tommen";
+}
+
+names {
+key = {"kevan lannister" | "kevan"};
+lemma = "kevan";
+}
+
+names {
+key = {"lancel lannister" | "lancel"};
+lemma = "lancel";
+}
+
+names {
+key = {"robert baratheon" | "robert"};
+lemma = "robert";
+}
+
+names {
+key = {"stannis baratheon" | "stannis"};
+lemma = "stannis";
+}
+
+names {
+key = {"selyse baratheon" | "selyse"};
+lemma = "selyse";
+}
+
+names {
+key = {"shireen baratheon" | "shireen"};
+lemma = "shireen";
+}
+
+names {
+key = {"renly baratheon" | "renly"};
+lemma = "renly";
+}
+
+names {
+key = {"gendry"};
+lemma = "gendry";
+}
+
+names {
+key = {"theon greyjoy" | "theon"};
+lemma = "theon";
+}
+
+names {
+key = {"balon greyjoy" | "balon"};
+lemma = "balon";
+}
+
+names {
+key = {"asha greyjoy" | "asha"};
+lemma = "asha";
+}
+
+names {
+key = {"euron greyjoy" | "euron"};
+lemma = "euron";
+}
+
+names {
+key = {"victarion greyjoy" | "victarion"};
+lemma = "victarion";
+}
+
+names {
+key = {"aeron greyjoy" | "aeron"};
+lemma = "aeron greyjoy";
+}
+
+names {
+key = {"doran martell" | "doran"};
+lemma = "doran";
+}
+
+names {
+key = {"arianne martell" | "arianne"};
+lemma = "arianne";
+}
+
+names {
+key = {"quentyn martell" | "quentyn"};
+lemma = "quentyn";
+}
+
+names {
+key = {"trystane martell" | "trystane"};
+lemma = "trystane";
+}
+
+names {
+key = {"elia martell" | "elia"};
+lemma = "elia";
+}
+
+names {
+key = {"oberyn martell" | "oberyn"};
+lemma = "oberyn";
+}
+
+names {
+key = {"ellaria sand" | "ellaria"};
+lemma = "ellaria";
+}
+
+names {
+key = {"hoster tully" | "hoster"};
+lemma = "hoster";
+}
+
+names {
+key = {"edmure tully" | "edmure"};
+lemma = "edmure";
+}
+
+names {
+key = {"brynden tully" | "blackfish"};
+lemma = "brynden";
+}
+
+names {
+key = {"walder frey" | "walder"};
+lemma = "walder frey";
+}
+
+names {
+key = {"mace tyrell" | "mace"};
+lemma = "mace";
+}
+
+names {
+key = {"loras tyrell" | "knight of flowers" | "loras"};
+lemma = "loras";
+}
+
+names {
+key = {"margaery tyrell" | "margaery"};
+lemma = "margaery";
+}
+
+names {
+key = {"olenna tyrell" | "queen of thorns" | "olenna"};
+lemma = "olenna";
+}
+
+names {
+key = {"jeor mormont" | "old bear" | "jeor"};
+lemma = "jeor mormont";
+}
+
+names {
+key = {"maester aemon" | " aemon"};
+lemma = "maester aemon";
+}
+
+names {
+key = {"yoren"};
+lemma = "yoren";
+}
+
+names {
+key = {"samwell tarly" | "sam" | "samwell"};
+lemma = "samwell";
+}
+
+names {
+key = {"janos slynt" | "janos"};
+lemma = "janos slynt";
+}
+
+names {
+key = {"alliser thorne" | "alliser"};
+lemma = "alliser thorne";
+}
+
+names {
+key = {"mance rayder" | "mance"};
+lemma = "mance rayder";
+}
+
+names {
+key = {"ygritte"};
+lemma = "ygritte";
+}
+
+names {
+key = {"craster"};
+lemma = "craster";
+}
+
+names {
+key = {"gilly"};
+lemma = "gilly";
+}
+
+names {
+key = {"val"};
+lemma = "val";
+}
+
+names {
+key = {"lord of bones" | "rattleshirt"};
+lemma = "lord of bones";
+}
+
+names {
+key = {"bowen marsh" | "bowen"};
+lemma = "bowen marsh";
+}
+
+names {
+key = {"eddison tollett" | "dolorous edd" | "eddison"};
+lemma = "eddison tollett";
+}
+
+names {
+key = {"tormund giantsbane" | "tormund thunderfist" | "tormund"};
+lemma = "tormund giantsbane";
+}
+
+names {
+key = {"petyr baelish" | "littlefinger" | "baelish"};
+lemma = "petyr";
+}
+
+names {
+key = {"varys"};
+lemma = "varys";
+}
+
+names {
+key = {"pycelle"};
+lemma = "pycelle";
+}
+
+names {
+key = {"barristan selmy" | "barristan the bold" | "barristan"};
+lemma = "barristan selmy";
+}
+
+names {
+key = {"arys oakheart" | "arys"};
+lemma = "arys oakheart";
+}
+
+names {
+key = {"ilyn payne" | "ilyn"};
+lemma = "ilyn payne";
+}
+
+names {
+key = {"qyburn"};
+lemma = "qyburn";
+}
+
+names {
+key = {"the high sparrow"};
+lemma = "the high sparrow";
+}
+
+names {
+key = {"randyll tarly"};
+lemma = "randyll tarly";
+}
+
+names {
+key = {"hodor"};
+lemma = "hodor";
+}
+
+names {
+key = {"osha"};
+lemma = "osha";
+}
+
+names {
+key = {"jeyne westerling" | "jeyne"};
+lemma = "jeyne westerling";
+}
+
+names {
+key = {"jojen reed" | "jojen"};
+lemma = "jojen reed";
+}
+
+names {
+key = {"meera reed" | "meera"};
+lemma = "meera reed";
+}
+
+names {
+key = {"jon connington"};
+lemma = "jon connington";
+}
+
+names {
+key = {"jorah mormont" | "jorah"};
+lemma = "jorah mormont";
+}
+
+names {
+key = {"brynden rivers" | "lord bloodraven" | "rivers"};
+lemma = "brynden rivers";
+}
+
+names {
+key = {"missandei"};
+lemma = "missandei";
+}
+
+names {
+key = {"daario naharis"};
+lemma = "daario naharis";
+}
+
+names {
+key = {"grey worm"};
+lemma = "grey worm";
+}
+
+names {
+key = {"yohn royce" | "bronze yohn" | "yohn"};
+lemma = "yohn royce";
+}
+
+names {
+key = {"bronn"};
+lemma = "bronn";
+}
+
+names {
+key = {"gregor clegane" | "gregor"};
+lemma = "gregor clegane";
+}
+
+names {
+key = {"sandor clegane" | "hound"};
+lemma = "sandor clegane";
+}
+
+names {
+key = {"podrick payne" | "pod"};
+lemma = "podrick payne";
+}
+
+names {
+key = {"davos seaworth" | "onion knight" | "davos"};
+lemma = "davos seaworth";
+}
+
+names {
+key = {"melisandre"};
+lemma = "melisandre";
+}
+
+names {
+key = {"brienne of tarth" | "brienne"};
+lemma = "brienne";
+}
+
+names {
+key = {"beric dondarrion" | "beric"};
+lemma = "beric dondarrion";
+}
+
+names {
+key = {"areo hotah" | "areo"};
+lemma = "areo hotah";
+}
+
+names {
+key = {"khal drogo" | "drogo"};
+lemma = "drogo";
+}
+
+names {
+key = {"syrio forel" | "syrio"};
+lemma = "syrio forel";
+}
+
+names {
+key = {"jaqen h'ghar"};
+lemma = "jaqen h'ghar";
+}
+
+names {
+key = {"illyrio mopatis" | "illyrio"};
+lemma = "illyrio";
+}
+
+names {
+key = {"thoros of myr"};
+lemma = "thoros of myr";
+}
+
+names {
+key = {"duncan the tall"};
+lemma = "duncan the tall";
+}
+
+names {
+key = {"hizdahr zo loraq"};
+lemma = "hizdahr zo loraq";
+}
+
+names {
+key = {"yezzan zo qaggaz"};
+lemma = "yezzan zo qaggaz";
+}
+
+names {
+key = {"tycho nestoris" | "tycho"};
+lemma = "tycho nestoris";
+}
+
+names {
+key = {"the waif"};
+lemma = "the waif";
+}
+
+names {
+key = {"meribald"};
+lemma = "meribald";
+}
+
+names {
+key = {"septa unella" | "unella"};
+lemma = "septa unella";
+}
+

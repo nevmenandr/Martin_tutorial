@@ -1,0 +1,13 @@
+encoding "utf-8";
+import "base.proto";
+import "articles_base.proto";
+import "kwtypes.proto";
+import "facttypes.proto";
+
+import "got_names.gzt";
+
+TAuxDicArticle "Article"
+{
+    key = { "tomita:article.cxx" type=CUSTOM }
+}
+
