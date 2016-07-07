@@ -12,11 +12,3 @@ data = gensim.models.word2vec.LineSentence(argument)
 model = gensim.models.Word2Vec(data, size=300, window=3, min_count=3, sg=0)
 model.init_sims(replace=True)
 model.save('model/SIF.model')
-
-def main():
-    
-    return 0
-
-if __name__ == '__main__':
-    main()
-

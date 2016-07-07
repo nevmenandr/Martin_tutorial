@@ -1,0 +1,20 @@
+Eddard, Ned, Eddard Stark, Ned Stark - Eddard
+Petyr, Baelish, Petyr Baelish, Littlefinger - Petyr
+Bryndon, Bryndon Tully, Blackfish - Bryndon
+Catelyn, Cat - Catelyn
+Sam, Samwell - Sam
+Daenerys, Dany - Daenerys
+Melisandre, The Red Woman - Melisandre
+Tyrion, Imp - Tyrion
+Joffrey, Joff - Joffrey
+Podrick, Pod - Podrick
+King’s_Landing, King’s Landing, King's Landing  - a
+Casterly_Rock, Casterly Rock - a
+Bear_Island, Bear Island - a
+Storm’s_End, Storm’s End, Storm's End - a
+Iron_Island, Iron Island - a
+Castle_Black, Castle Black - a
+Bay_of_Dragons, Bay of Dragons, Bay Of Dragons - a
+Fist_of_the_First_Men, Fist of the First Men - a
+Vaes_Dothrak, Vaes Dothrak - a
+Summer_Islands, Summer Islands - a
